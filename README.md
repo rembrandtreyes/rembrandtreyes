@@ -32,7 +32,7 @@ When I'm away from the keyboard, I'm usually climbing somewhere in the desert. �
 ## Lately
 
 <!-- RECENT:START -->
-- **[senna](https://github.com/rembrandtreyes/senna)**: 2 pushes <sub>· today</sub>
+- **[senna](https://github.com/rembrandtreyes/senna)**: 5 pushes <sub>· today</sub>
 - **[jobhunt-hq](https://github.com/rembrandtreyes/jobhunt-hq)**: 10 pushes <sub>· 8 days ago</sub>
 <!-- RECENT:END -->
 

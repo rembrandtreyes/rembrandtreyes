@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Rembrandt Reyes</title>
+  <desc id="d">Lorem LLC, Phoenix, Arizona. Most software is disposable. Ours is not.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+    .in { opacity: 0; animation: in 1.2s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .horizon { stroke-dasharray: 1100; stroke-dashoffset: 1100; animation: draw 2.4s .3s ease-in-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .sun { animation: set 14s ease-in-out infinite alternate; }
+    @keyframes set { from { transform: translateY(-22px); } to { transform: translateY(6px); } }
+    .star { animation: twinkle 4s ease-in-out infinite; }
+    @keyframes twinkle { 50% { opacity: .15; } }
+    .r { opacity: 0; animation: cycle 18s infinite backwards; }
+    @keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 15% { opacity: 1; } 17% { opacity: 0; } 100% { opacity: 0; } }
+    .caret { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .in, .r1 { opacity: 1; }
+      .horizon { stroke-dashoffset: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="sky"><rect x="0" y="0" width="1200" height="296"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="338" rx="18" fill="#0f0e0d" stroke="#2a2622"/>
+
+  <!-- night sky (stars are invisible in the light theme) -->
+  <g fill="#f3eee6" opacity=".8">
+    <circle class="star" cx="760" cy="70" r="1.4"/>
+    <circle class="star" cx="842" cy="118" r="1" style="animation-delay:1.3s"/>
+    <circle class="star" cx="905" cy="54" r="1.6" style="animation-delay:2.1s"/>
+    <circle class="star" cx="1012" cy="96" r="1.1" style="animation-delay:.6s"/>
+    <circle class="star" cx="1088" cy="62" r="1.4" style="animation-delay:2.8s"/>
+    <circle class="star" cx="1136" cy="140" r="1" style="animation-delay:1.8s"/>
+    <circle class="star" cx="968" cy="160" r="0.9" style="animation-delay:3.3s"/>
+  </g>
+
+  <!-- setting sun, clipped at the horizon -->
+  <g clip-path="url(#sky)">
+    <circle class="sun" cx="930" cy="286" r="54" fill="#f08a4b" opacity=".9"/>
+  </g>
+
+  <!-- mesas, a butte, and a saguaro -->
+  <path d="M720 296 L772 296 L790 262 L866 262 L884 296 L1050 296 L1062 244 L1098 244 L1112 296 L1160 296 Z" fill="#2f2a24"/>
+  <g stroke="#2f2a24" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M1020 292 V226"/>
+    <path d="M1020 266 H1004 V246"/>
+    <path d="M1020 256 H1036 V236"/>
+  </g>
+
+  <line class="horizon" x1="48" y1="296" x2="1152" y2="296" stroke="#4a433b" stroke-width="1.5"/>
+
+  <!-- words -->
+  <text class="mono in" x="64" y="78" font-size="13" letter-spacing="3" fill="#9c9387">LOREM LLC  ·  PHOENIX, ARIZONA</text>
+  <text class="serif in" x="62" y="154" font-size="62" fill="#f3eee6" style="animation-delay:.2s">Rembrandt Reyes</text>
+  <text class="serif in" x="64" y="200" font-size="23" font-style="italic" fill="#9c9387" style="animation-delay:.45s">Most software is disposable. Ours is not.</text>
+
+  <g class="mono" font-size="15" fill="#f3eee6">
+    <text class="in" x="64" y="256" fill="#f08a4b" style="animation-delay:.7s">›<tspan class="caret">_</tspan></text>
+    <text class="r r1" x="88" y="256">timbre <tspan fill="#9c9387">— one idea, five platforms, your voice</tspan></text>
+    <text class="r" x="88" y="256" style="animation-delay:3s">ariadne <tspan fill="#9c9387">— dependency graphs for coding agents</tspan></text>
+    <text class="r" x="88" y="256" style="animation-delay:6s">mjolnir <tspan fill="#9c9387">— a native command center for agents</tspan></text>
+    <text class="r" x="88" y="256" style="animation-delay:9s">on the tip <tspan fill="#9c9387">— the word's right there</tspan></text>
+    <text class="r" x="88" y="256" style="animation-delay:12s">magistrate <tspan fill="#9c9387">— budgets for fleets of agents</tspan></text>
+    <text class="r" x="88" y="256" style="animation-delay:15s">oras <tspan fill="#9c9387">— quality signals, not ad spend</tspan></text>
+  </g>
+</svg>

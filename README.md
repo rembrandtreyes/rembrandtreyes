@@ -5,7 +5,10 @@
 
 <br>
 
-I'm a senior software engineer in Phoenix, and I build infrastructure for AI systems. At my day job I work on identity, authorization, entitlements, and networking at DataRobot. After hours I run **[Lorem LLC](https://lorem.llc)**, a small studio that makes AI apps, agent systems, and developer tools. We make fewer things and take our time with each one.
+I'm a senior software engineer in Phoenix, and I build infrastructure for AI systems: identity, authorization, entitlements, networking, and now the tooling that coding agents run on. I also run **[Lorem LLC](https://lorem.llc)**, a small studio that makes AI apps, agent systems, and developer tools. We make fewer things and take our time with each one.
+
+> [!TIP]
+> **I'm looking for my next role.** I'm most interested in senior engineering work on AI infrastructure, agent systems, or developer tooling, remote or in Phoenix. My résumé is at [rembrandtreyes.com](https://rembrandtreyes.com), or [email me](mailto:hello@lorem.llc).
 
 When I'm away from the keyboard, I'm usually climbing somewhere in the desert. 🧗
 

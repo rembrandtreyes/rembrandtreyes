@@ -25,7 +25,7 @@ jobs:
           outputs: |
             dist/snake-light.svg?color_snake=#d9622b&color_dots=#efe9df,#f6d3bb,#eea77c,#e07a45,#b24a18
             dist/snake-dark.svg?color_snake=#f08a4b&color_dots=#1c1a17,#4a2a17,#7a3d1a,#b8561f,#f08a4b
-      - uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
@@ -35,7 +35,7 @@ jobs:
   recent:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Update recently pushed repos
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

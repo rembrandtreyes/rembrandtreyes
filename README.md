@@ -32,8 +32,8 @@ When I'm away from the keyboard, I'm usually climbing somewhere in the desert. �
 ## Lately
 
 <!-- RECENT:START -->
-- **[senna](https://github.com/rembrandtreyes/senna)**: 26 pushes <sub>· 7 days ago</sub>
-- **[jobhunt-hq](https://github.com/rembrandtreyes/jobhunt-hq)**: 10 pushes <sub>· 19 days ago</sub>
+- **[senna](https://github.com/rembrandtreyes/senna)**: 26 pushes <sub>· 8 days ago</sub>
+- **[jobhunt-hq](https://github.com/rembrandtreyes/jobhunt-hq)**: 10 pushes <sub>· 20 days ago</sub>
 <!-- RECENT:END -->
 
 <sub>Pulled from my public activity each day by a GitHub Action.</sub>

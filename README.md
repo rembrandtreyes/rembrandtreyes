@@ -32,7 +32,7 @@ When I'm away from the keyboard, I'm usually climbing somewhere in the desert. �
 ## Lately
 
 <!-- RECENT:START -->
-- **[senna](https://github.com/rembrandtreyes/senna)**: 11 pushes, opened 4 PRs <sub>· today</sub>
+- **[senna](https://github.com/rembrandtreyes/senna)**: 8 pushes, opened 4 PRs <sub>· yesterday</sub>
 <!-- RECENT:END -->
 
 <sub>Pulled from my public activity each day by a GitHub Action.</sub>

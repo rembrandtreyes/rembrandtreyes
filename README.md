@@ -32,8 +32,8 @@ When I'm away from the keyboard, I'm usually climbing somewhere in the desert. �
 ## Lately
 
 <!-- RECENT:START -->
-- **[tell-sama](https://github.com/rembrandtreyes/tell-sama)**: 1 push, opened 1 PR <sub>· 2 days ago</sub>
-- **[senna](https://github.com/rembrandtreyes/senna)**: 13 pushes, opened 7 PRs <sub>· 11 days ago</sub>
+- **[tell-sama](https://github.com/rembrandtreyes/tell-sama)**: 1 push, opened 1 PR <sub>· 3 days ago</sub>
+- **[senna](https://github.com/rembrandtreyes/senna)**: 13 pushes, opened 7 PRs <sub>· 12 days ago</sub>
 <!-- RECENT:END -->
 
 <sub>Pulled from my public activity each day by a GitHub Action.</sub>

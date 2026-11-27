@@ -5,10 +5,7 @@
 
 <br>
 
-I'm a senior software engineer in Phoenix, and I build infrastructure for AI systems: identity, authorization, entitlements, networking, and now the tooling that coding agents run on. I also run **[Lorem LLC](https://lorem.llc)**, a small studio that makes AI apps, agent systems, and developer tools. We make fewer things and take our time with each one.
-
-> [!TIP]
-> **I'm looking for my next role.** I'm most interested in senior engineering work on AI infrastructure, agent systems, or developer tooling, remote or in Phoenix. My résumé is at [rembrandtreyes.com](https://rembrandtreyes.com), or [email me](mailto:hello@lorem.llc).
+I'm a staff software engineer in Phoenix, and I build infrastructure for AI systems: identity, authorization, entitlements, networking, and now the tooling that coding agents run on. I also run **[Lorem LLC](https://lorem.llc)**, a small studio that makes AI apps, agent systems, and developer tools. We make fewer things and take our time with each one.
 
 When I'm away from the keyboard, I'm usually climbing somewhere in the desert. 🧗
 
@@ -18,6 +15,7 @@ When I'm away from the keyboard, I'm usually climbing somewhere in the desert. �
 |:--|:--|:--|
 | **[Timbre](https://gettimbre.ai)** | One idea, five platforms, unmistakably your voice. The anti-AI AI. | 🟢 Live |
 | **[On the Tip](https://apps.apple.com/us/app/on-the-tip/id6793348878)** | The word's right there, on the tip of your tongue. A daily game built to summon it. | 🟢 Live on iOS |
+| **[Queen Creek Water Calculator](https://www.lorem.llc/qc-water)** | Your 2027 water bill, before it arrives. The town's new rates next to what you pay today, projected through 2032. | 🟢 Live |
 | **[Ariadne](https://github.com/rembrandtreyes/ariadne)** | The thread through the labyrinth: dependency graphs for AI coding agents, in milliseconds. | 🛠️ In development |
 | **Mjolnir** | Wield your agents from a native desktop command center. Rust underneath, thunder on top. | 🛠️ In development |
 | **Magistrate** | Observability, routing, and budgets for fleets of agents. Command, quietly held. | 🛠️ In development |
